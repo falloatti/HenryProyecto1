@@ -42,7 +42,7 @@ Cantidad de películas por plataforma con filtro de PLATAFORMA. (La función deb
 Actor que más se repite según plataforma y año. (La función debe llamarse get_actor(platform, year))
 
 ##### Base de Datos: 
-Los datos se encuentran en el siguiente repositorio [Links](https://deta.space/discovery/r/urk9xcda8l2mgzen)
+Los datos se encuentran en el siguiente repositorio [Links](https://drive.google.com/drive/folders/1b49OVFJpjPPA1noRBBi1hSmMThXmNzxn)
 
 ##### Deployment: 
 Se utiliza Deta para hacer el deployment de aplicaciones. 
