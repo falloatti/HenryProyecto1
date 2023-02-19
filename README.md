@@ -113,3 +113,8 @@ ingresando los datos en:
 
 podrás encontrar la película por plataforma y tipo (minutos o season) Para plataforma no es necesario que ingreses el nombre completo, se programó para que interprete por ejemplo que 'n', 'ne', 'net', 'netf', 'netfl', 'netfli', 'netflix' corresponden a 'netflix' y lo mismo para las demás opciones: hulu, amazon y disney, al igual que las opciones para min o season. Los datos son opcionales, con lo cual si no los colocas el filtro se aplica sobre los demas campos. 
 
+### Modelo de Recomendación
+
+Se genero un modelo con la librería surprise y se entrenó un modelo simple para predecir si la película va a gustarle o no al usuario. Al ingresar al modelo entrenado el 'userId' y el 'id' devuelve la recomendación como en la imagen que puede verse a continuación:  
+![texto alternativo](https://github.com/falloatti/HenryProyectoUno/blob/main/recomienda.png)
+
