@@ -126,7 +126,7 @@ podrás encontrar la película por plataforma y tipo (minutos o season) Para pla
 Se genero un modelo con la librería surprise y se entrenó un modelo simple para predecir si la película va a gustarle o no al usuario. 
 El Modelo1 probado se basa en algoritmo SVD (Singular Value Decomposition). Este algoritmo se basa en la Factorización de Matrices, que consiste en que cualquier matriz (n, d) se puede descomponer en un producto de tres factores.  
 
-Las metricas del modelo fueron: 
+Las metricas del modelo fueron:   
 RMSE: 1.0019  
 MAE:  0.7771  
 
