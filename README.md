@@ -49,23 +49,24 @@ Se utiliza Deta para hacer el deployment de aplicaciones.
 El análisis exploratorio de datos (EDA) se realizó mediante una inspección de los datos de las columnas.
 En el archivo EDA.py se encuentra el desarrollo completo. A modo de resumen se comenta que entre otras cosas se encontraron, post depuración de valores repetidos:
 
-userId int64 Valores no nulos:  11013823
-score float64 Valores no nulos:  11013823
-timestamp datetime64[ns] Valores no nulos:  11013823
-id object Valores no nulos:  11013823
-type object Valores no nulos:  11013823
-title object Valores no nulos:  11013823
-director object Valores no nulos:  7056968
-cast object Valores no nulos:  8465400
-country object Valores no nulos:  5509022
-date_added datetime64[ns] Valores no nulos:  6440690
-year int64 Valores no nulos:  11013823
-rating object Valores no nulos:  11013823
-listed_in object Valores no nulos:  11013823
-platform object Valores no nulos:  11013823
-duration_int int64 Valores no nulos:  11013823
-duration_type object Valores no nulos:  10924436
-scored float64 Valores no nulos:  11013823
+Cantidad de filas:  11013823  
+userId int64 Valores no nulos:  11013823  
+score float64 Valores no nulos:  11013823  
+timestamp datetime64[ns] Valores no nulos:  11013823  
+id object Valores no nulos:  11013823  
+type object Valores no nulos:  11013823  
+title object Valores no nulos:  11013823  
+director object Valores no nulos:  7056968  
+cast object Valores no nulos:  8465400  
+country object Valores no nulos:  5509022  
+date_added datetime64[ns] Valores no nulos:  6440690  
+year int64 Valores no nulos:  11013823  
+rating object Valores no nulos:  11013823  
+listed_in object Valores no nulos:  11013823  
+platform object Valores no nulos:  11013823  
+duration_int int64 Valores no nulos:  11013823  
+duration_type object Valores no nulos:  10924436  
+scored float64 Valores no nulos:  11013823  
  
 - 115077 usuarios únicos, donde el 80.0% del total de visualizaciones, corrsponde a 30549 usuarios, es decir, solo el 26.55% de ellos. 
 - 22998 id de películas únicos. 
