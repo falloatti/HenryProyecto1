@@ -12,8 +12,7 @@ El proyecto consistía en situarse en el rol de Data Engineer, a quien como miem
 Como segunda parte del requerimiento, se solicitaba elaborar una API a efectos de disponibilizar los datos de manera online, los cuales debían ser accedidos mediante cinco consultas predefinidas.
 
 Por último, se solicita documentar todo el proceso y el funcionamiento de la API, y efectuar un video que sería remitido al Tech Lead que nos encargó el proyecto para que nos efectúe un feedback sobre el mismo.
-
-
+![texto alternativo](https://github.com/falloatti/HenryProyectoUno/blob/main/plataformas.png)
 
 #### Propuesta de trabajo
 
@@ -47,8 +46,7 @@ Actor que más se repite según plataforma y año. (La función debe llamarse ge
 Se utiliza Deta para hacer el deployment de aplicaciones. 
 
 #### Análisis exploratorio de los datos: (Exploratory Data Analysis-EDA)
-Se realiza una revision de los datos para identificar las principales caracteristicas de 
-
+El análisis exploratorio de datos (EDA) se realizó mediante una inspección de los datos de las columnas.
 ##### Sistema de recomendación:
 
 Una vez que toda la data es consumible por la API ya lista para consumir para los departamentos de Analytics y de Machine Learning, y nuestro EDA bien realizado entendiendo bien los datos a los que tenemos acceso, es hora de entrenar nuestro modelo de machine learning para armar un sistema de recomendación de películas para usuarios, donde dado un id de usuario y una película, nos diga si la recomienda o no para dicho usuario.
