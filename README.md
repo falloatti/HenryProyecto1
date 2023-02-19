@@ -76,7 +76,13 @@ scored float64 Valores no nulos:  11013823
 - el top 5 de directores es 'mark knight', 'cannis holder', 'jay chapman', 'moonbug entertainment', 'arthur van merwijk', se realiza un split de los datos de la columna, se calcularon los que mas frecuencia tienen, se generan variables dummies de estos y se elimina la columna. 
 - se procesaron las clasificaciones y se obtuvo que el genero mas visto es drama con el 15.16%, seguido de comedias con el 8.14% y documentales con el 6.23%. 
 
-En el archivo pueden verse el resto de los datos, las transformaciones realizadas y la variables nuevas que fueron creadas. 
+En el archivo EDA.ipynb pueden verse el resto de los datos, las transformaciones realizadas y la variables nuevas que fueron creadas. 
+
+##### EDA simple
+
+Se genero un archivo reducido smalldataset con una muestra de las películas con mayor cantidad de visualizaciones y top 10000 de usuarios con puntuaciones otorgadas. Sobre esa muestra quedaron poco mas de 1 millón de registros sobre lo que se aplicó un EDA rápido con la librería Pandas Profiling, el resultado es el archivo EDAsmall.html donde puede verse todas las variables nuevas creadas y visualizaciones. 
+
+
 ##### Sistema de recomendación:
 
 Una vez que toda la data es consumible por la API ya lista para consumir para los departamentos de Analytics y de Machine Learning, y nuestro EDA bien realizado entendiendo bien los datos a los que tenemos acceso, es hora de entrenar nuestro modelo de machine learning para armar un sistema de recomendación de películas para usuarios, donde dado un id de usuario y una película, nos diga si la recomienda o no para dicho usuario.
