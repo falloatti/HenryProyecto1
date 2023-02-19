@@ -84,6 +84,6 @@ Una vez que toda la data es consumible por la API ya lista para consumir para lo
 La API se encuentra alojada en el siguiente link [Links](https://deta.space/discovery/r/r7fa4opjkhn7gj1a)
 
 En la API se encontraran con la siguiente imagen, luego se debe hacer click en 'Consultas generales'.
-
+![texto alternativo](https://github.com/falloatti/HenryProyectoUno/blob/main/plataformas.png)
 
 
