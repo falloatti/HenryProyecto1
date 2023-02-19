@@ -123,7 +123,14 @@ podrás encontrar la película por plataforma y tipo (minutos o season) Para pla
 
 ### Modelo de Recomendación
 
-Se genero un modelo con la librería surprise y se entrenó un modelo simple para predecir si la película va a gustarle o no al usuario. Al ingresar al modelo entrenado el 'userId' y el 'id' devuelve la recomendación como en la imagen que puede verse a continuación:  
+Se genero un modelo con la librería surprise y se entrenó un modelo simple para predecir si la película va a gustarle o no al usuario. 
+El Modelo1 probado se basa en algoritmo SVD (Singular Value Decomposition). Este algoritmo se basa en la Factorización de Matrices, que consiste en que cualquier matriz (n, d) se puede descomponer en un producto de tres factores.  
+
+Las metricas del modelo fueron: 
+RMSE: 1.0019  
+MAE:  0.7771  
+
+Al ingresar al modelo entrenado el 'userId' y el 'id' devuelve la recomendación como en la imagen que puede verse a continuación:  
 ![texto alternativo](https://github.com/falloatti/HenryProyectoUno/blob/main/recomienda.png)
 
 ##### Salidas: 
