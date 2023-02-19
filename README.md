@@ -80,3 +80,10 @@ En el archivo pueden verse el resto de los datos, las transformaciones realizada
 
 Una vez que toda la data es consumible por la API ya lista para consumir para los departamentos de Analytics y de Machine Learning, y nuestro EDA bien realizado entendiendo bien los datos a los que tenemos acceso, es hora de entrenar nuestro modelo de machine learning para armar un sistema de recomendación de películas para usuarios, donde dado un id de usuario y una película, nos diga si la recomienda o no para dicho usuario.
 
+##### Instrucciones para el uso de la API: 
+La API se encuentra alojada en el siguiente link [Links](https://deta.space/discovery/r/r7fa4opjkhn7gj1a)
+
+En la API se encontraran con la siguiente imagen, luego se debe hacer click en 'Consultas generales'.
+
+
+
