@@ -126,3 +126,5 @@ podrás encontrar la película por plataforma y tipo (minutos o season) Para pla
 Se genero un modelo con la librería surprise y se entrenó un modelo simple para predecir si la película va a gustarle o no al usuario. Al ingresar al modelo entrenado el 'userId' y el 'id' devuelve la recomendación como en la imagen que puede verse a continuación:  
 ![texto alternativo](https://github.com/falloatti/HenryProyectoUno/blob/main/recomienda.png)
 
+##### Salidas: 
+Los archivos de salidas y el modelo entrenado se encuentran en el siguiente repositorio  [Links](https://drive.google.com/drive/folders/1AIrOXLlyL0I9eL921Vsfn7grjxSWqOm3)
