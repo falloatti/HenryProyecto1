@@ -47,6 +47,35 @@ Se utiliza Deta para hacer el deployment de aplicaciones.
 
 #### Análisis exploratorio de los datos: (Exploratory Data Analysis-EDA)
 El análisis exploratorio de datos (EDA) se realizó mediante una inspección de los datos de las columnas.
+En el archivo EDA.py se encuentra el desarrollo completo. A modo de resumen se comenta que entre otras cosas se encontraron, post depuración de valores repetidos:
+
+userId int64 Valores no nulos:  11013823
+score float64 Valores no nulos:  11013823
+timestamp datetime64[ns] Valores no nulos:  11013823
+id object Valores no nulos:  11013823
+type object Valores no nulos:  11013823
+title object Valores no nulos:  11013823
+director object Valores no nulos:  7056968
+cast object Valores no nulos:  8465400
+country object Valores no nulos:  5509022
+date_added datetime64[ns] Valores no nulos:  6440690
+year int64 Valores no nulos:  11013823
+rating object Valores no nulos:  11013823
+listed_in object Valores no nulos:  11013823
+platform object Valores no nulos:  11013823
+duration_int int64 Valores no nulos:  11013823
+duration_type object Valores no nulos:  10924436
+scored float64 Valores no nulos:  11013823
+ 
+- 115077 usuarios únicos, donde el 80.0% del total de visualizaciones, corrsponde a 30549 usuarios, es decir, solo el 26.55% de ellos. 
+- 22998 id de películas únicos. 
+- los valores de score van en un rango de 1 a 5, con una media de 3.53.
+- del total de datos, el 71.63% corresponde a movies y el 28.37% corresponde a tv show. 
+- existen 22042 valores únicos para 'title', se vericaron casos aleatorios y el motivo de no coincidencia con la cantidad de 'id' es que se trata de películas con el mismo nombre o lanzadas en distintas plataformas. 
+- el top 5 de directores es 'mark knight', 'cannis holder', 'jay chapman', 'moonbug entertainment', 'arthur van merwijk', se realiza un split de los datos de la columna, se calcularon los que mas frecuencia tienen, se generan variables dummies de estos y se elimina la columna. 
+- se procesaron las clasificaciones y se obtuvo que el genero mas visto es drama con el 15.16%, seguido de comedias con el 8.14% y documentales con el 6.23%. 
+
+En el archivo pueden verse el resto de los datos, las transformaciones realizadas y la variables nuevas que fueron creadas. 
 ##### Sistema de recomendación:
 
 Una vez que toda la data es consumible por la API ya lista para consumir para los departamentos de Analytics y de Machine Learning, y nuestro EDA bien realizado entendiendo bien los datos a los que tenemos acceso, es hora de entrenar nuestro modelo de machine learning para armar un sistema de recomendación de películas para usuarios, donde dado un id de usuario y una película, nos diga si la recomienda o no para dicho usuario.
