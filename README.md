@@ -135,6 +135,8 @@ MAE:  0.7771
 Al ingresar al modelo entrenado el 'userId' y el 'id' devuelve la recomendación como en la imagen que puede verse a continuación:  
 ![texto alternativo](https://github.com/falloatti/HenryProyectoUno/blob/main/prediccion.png)
 
+[Links] (https://m53kyjvfayh-496ff2e9c6d22116-7861-colab.googleusercontent.com/)
+
 ##### Salidas: 
 Los archivos de salidas y el modelo entrenado se encuentran en el siguiente repositorio  [Links](https://drive.google.com/drive/folders/1AIrOXLlyL0I9eL921Vsfn7grjxSWqOm3)
 
