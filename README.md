@@ -48,7 +48,7 @@ Los datos se encuentran en el siguiente repositorio [Links](https://drive.google
 Se utiliza Deta para hacer el deployment de aplicaciones. 
 
 #### Análisis exploratorio de los datos: (Exploratory Data Analysis-EDA)
-El análisis exploratorio de datos (EDA) se realizó mediante una inspección de los datos de las columnas.
+El análisis exploratorio de datos (EDA) se realizó mediante una inspección de los datos de las columnas y puede verse en 'EDA.ipynb'.  
 En el archivo EDA.py se encuentra el desarrollo completo. A modo de resumen se comenta que entre otras cosas se encontraron, post depuración de valores repetidos:
 
 Cantidad de filas:  11013823  
