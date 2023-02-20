@@ -90,7 +90,7 @@ Se genero un archivo reducido smalldataset con una muestra de las películas con
 Una vez que toda la data es consumible por la API ya lista para consumir para los departamentos de Analytics y de Machine Learning, y nuestro EDA bien realizado entendiendo bien los datos a los que tenemos acceso, es hora de entrenar nuestro modelo de machine learning para armar un sistema de recomendación de películas para usuarios, donde dado un id de usuario y una película, nos diga si la recomienda o no para dicho usuario.
 
 ##### Instrucciones para el uso de la API: 
-La API se encuentra alojada en el siguiente link [Links](https://deta.space/discovery/r/urk9xcda8l2mgzen)
+La API se encuentra alojada en el siguiente link [Links](https://deta.space/discovery/r/kp5hgv91cp3w3vyc)
 
 En la API se encontraran con la siguiente imagen, luego se debe hacer click en 'Consultas generales'.
 ![texto alternativo](https://github.com/falloatti/HenryProyectoUno/blob/main/API.png)
