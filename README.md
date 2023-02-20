@@ -137,6 +137,8 @@ Al ingresar al modelo entrenado el 'userId' y el 'id' devuelve la recomendación
 
 Al correr el código 'MODELO.ipynb' podrás ejecutar la consulta al final de la predicción. 
 
+Tambien puedes ingresar al ##Modelo Deployado en Gradio ingresando## [Links] (https://huggingface.co/spaces/falloatti/Prediccion) 
+
 ##### Salidas: 
 Los archivos de salidas y el modelo entrenado se encuentran en el siguiente repositorio  [Links](https://drive.google.com/drive/folders/1AIrOXLlyL0I9eL921Vsfn7grjxSWqOm3)
 
