@@ -138,6 +138,6 @@ Los archivos de salidas y el modelo entrenado se encuentran en el siguiente repo
 
 ##### Archivos para el EDA y Modelo se alojan en: 
 [Links](https://drive.google.com/file/d/1C9yacclsPrYSbE-3dJLVTbZS18lLvS83/view?usp=share_link)  
-[Links]([Links](https://drive.google.com/file/d/1C9yacclsPrYSbE-3dJLVTbZS18lLvS83/view?usp=share_link))  
+([Links](https://drive.google.com/file/d/1C9yacclsPrYSbE-3dJLVTbZS18lLvS83/view?usp=share_link))  
 
 
