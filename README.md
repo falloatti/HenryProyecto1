@@ -92,7 +92,7 @@ Una vez que toda la data es consumible por la API ya lista para consumir para lo
 ##### Instrucciones para el uso de la API: 
 La API se encuentra alojada en el siguiente link [Links](https://deta.space/discovery/r/kp5hgv91cp3w3vyc)  
 
-La app se llama 'fastapi', usuario creatos: 'falloatti'  
+La app se llama 'fastapi', usuario creator: 'falloatti'  
 
 En la API se encontraran con la siguiente imagen, luego se debe hacer click en 'Consultas generales'.
 ![texto alternativo](https://github.com/falloatti/HenryProyectoUno/blob/main/API.png)
