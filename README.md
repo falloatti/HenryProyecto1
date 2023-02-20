@@ -147,4 +147,4 @@ Los archivos de salidas y el modelo entrenado se encuentran en el siguiente repo
 [Links](https://drive.google.com/file/d/1C9yacclsPrYSbE-3dJLVTbZS18lLvS83/view?usp=share_link)  
 [Links](https://drive.google.com/file/d/1C9yacclsPrYSbE-3dJLVTbZS18lLvS83/view?usp=share_link)
 
-
+##### Herramientas utilizadas: Python, Pandas, Visual Studio Code, Google Colab, Deta Space, Uvicorn, Gradio.
