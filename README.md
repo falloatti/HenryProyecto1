@@ -135,3 +135,8 @@ Al ingresar al modelo entrenado el 'userId' y el 'id' devuelve la recomendación
 
 ##### Salidas: 
 Los archivos de salidas y el modelo entrenado se encuentran en el siguiente repositorio  [Links](https://drive.google.com/drive/folders/1AIrOXLlyL0I9eL921Vsfn7grjxSWqOm3)
+
+##### Archivos para el EDA y Modelo se alojan en:
+[Links](https://drive.google.com/file/d/1C9yacclsPrYSbE-3dJLVTbZS18lLvS83/view?usp=share_link)
+[Links]([Links](https://drive.google.com/file/d/1C9yacclsPrYSbE-3dJLVTbZS18lLvS83/view?usp=share_link))
+
